@@ -1,0 +1,206 @@
+header {
+	
+background-color: white;
+  height: 20em;
+  text-align:center !important;
+}
+
+header img {
+  text-align:center;
+
+  width: 18%;
+  padding: 2em;
+}
+
+header div {
+  height: 5em;
+}
+
+.outils a {
+  margin: 0.5em;
+} 
+
+#sizepaint input {
+  width: 25%;
+}
+
+.red {
+	background-color: red;
+
+}
+
+.green {
+	background-color: green;
+	height: 5em;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  background: whitesmoke;
+  font-family: sans-serif;
+}
+canvas {
+  background: white;
+}
+
+#paint-app {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+/* For any shape tools that need a live preview */
+.placeholder {
+  position:absolute;
+  z-index:999;
+}
+
+.image {
+  height: 100%;
+}
+
+#paint {
+  min-height: 100em;
+  width: 100%;
+  background-color: red;
+}
+
+#canvas {
+  margin: 0px;
+  border: solid black 1px;
+}
+
+/*#myCanvas {
+  width: 100%;
+  min-height: 60em;
+}
+
+*/
+
+
+
+
+
+
+
+
+#divtaille {
+  width: 15em;
+}
+
+
+.pencils {
+  /*background-color: #7477a0 !important;*/
+  background-color: #0066ff !important;
+
+  
+
+  background-image: url("https://www.transparenttextures.com/patterns/nistri.png");
+}
+
+.pencils a {
+  background-color: #fedf91;
+}
+
+.pencils a img {
+  width: 2em;
+}
+
+.myselect {
+
+  padding: 0.5em !important;
+}
+
+
+.fichier {
+
+/*background-color: #7477a0 !important;*/
+background-color: #00cc00;
+background-image: url("https://www.transparenttextures.com/patterns/nistri.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+}
+
+.couleur {
+  background-color: #ff0000;
+  /*background-color: #F18381;*/
+background-image: url("https://www.transparenttextures.com/patterns/nistri.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */ 
+
+}
+canvas {
+  background-color: #f5f5ef;
+}
+
+#tabs-swipe-demo {
+  background-color: #f5f5ef;
+}
+
+.autre {
+
+  /*background-color: #F18381;*/
+  background-color: #ffff00;
+background-image: url("https://www.transparenttextures.com/patterns/nistri.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+}
+
+#logo {
+  -webkit-transition:-webkit-transform .20s; 
+  -moz-transition:-moz-transform 1.6s;       
+  -o-transition:-o-transform 1.6s;           
+  -ms-transition:-ms-transform 1.6s;         
+  transition:transform 1.6s;
+}
+ 
+#logo:hover{
+  -webkit-transform:rotate(360deg); 
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg); 
+  -ms-transform:rotate(360deg); 
+  transform:rotate(360deg);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
